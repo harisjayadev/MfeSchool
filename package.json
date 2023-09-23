@@ -1,0 +1,18 @@
+{
+  "name": "mfeschooldemo",
+  "private": true,
+  "workspaces": [
+    "./school",
+    "./amitabh",
+    "./rajinikanth"
+  ],
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lerna run --scope=mfeschooldemo_* --parallel start"
+  },
+  "dependencies": {
+    "lerna": "^7.3.0",
+    "wait-on": "^7.0.1"
+  }
+}
